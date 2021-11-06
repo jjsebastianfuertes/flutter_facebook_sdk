@@ -207,7 +207,7 @@ public class SwiftFlutterFacebookSdkPlugin: NSObject, FlutterPlugin, FlutterStre
             }
             
         case "activateApp":
-            AppEvents.activateApp()
+            AppEvents.shared.activateApp()
             result(true)
         case "logCompleteRegistration":
             guard let args = call.arguments else {
