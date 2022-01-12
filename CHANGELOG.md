@@ -1,3 +1,6 @@
+## 0.0.2
+- Update: manager packages android mavenCentral()
+
 ## 0.0.1
 
 - Initial version. Only iOS Support.
